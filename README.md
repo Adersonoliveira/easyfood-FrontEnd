@@ -4,4 +4,6 @@
 
 ` npm install`
 
+`npm i styled-components`
+
 ` npm start`
