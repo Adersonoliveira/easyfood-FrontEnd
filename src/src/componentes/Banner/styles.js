@@ -1,7 +1,7 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 350px 30px;
+    padding: 400px 10px;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -19,13 +19,13 @@ export const Container = styled.div`
 `
 
 export const Text = styled.div`
-  width: 55%;
+    width: 30%;
     position: relative;
     z-index: 1;
-  h2{
-      color: var(--white);
-      font-size: 62px;
-      font-weight: 700;
-      margin-bottom: 35px;
-  }
+
+    h2 {
+        color: var(--white);
+        font-size: 60px;
+        font-weight: 600;
+        margin-bottom: 45px;
 `

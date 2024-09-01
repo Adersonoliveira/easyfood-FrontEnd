@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    padding: 25px 150px;
+    height: 70px;
+    padding: 25px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +15,7 @@ export const Logo = styled.div`
     justify-content: space-between;
     align-items: center;
     img{
-        width: 200px;
+        width: 150px;
     }
 `
 export const Menu = styled.div`
@@ -25,7 +26,9 @@ export const Menu = styled.div`
         li{
             border: 1px solid var(--gray);
             border-radius: 5px;
-            padding: 10px;
+            padding: 2px;
+            font-weight: 400;
+            font-size: 20px;
             span{
                 font-weight: 200;
             }

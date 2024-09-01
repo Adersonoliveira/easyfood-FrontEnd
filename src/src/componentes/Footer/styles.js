@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
 padding: 10px 100px;
 background-color: var(--white);
 `
   export const Item = styled.div`
+      font-weight: 400;
+      font-size: 20px;
   img{
       width: 200px;
   }
@@ -20,7 +20,9 @@ background-color: var(--white);
     
 `
 export const Copy = styled.div`
-    font-size: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,9 +31,12 @@ export const Copy = styled.div`
     ul{
         display: flex;
         align-items: center;
-        li{
+        li{  
+            font-weight: 400;
+            font-size: 20px;
             span{
                 margin-left: 15px;
+                
             }
         }
     }

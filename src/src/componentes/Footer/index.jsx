@@ -9,8 +9,8 @@ const Footer = () => {
     <Fragment>
       <Container>
         <Item>
-          <img src={LogoImg} alt=""/>
-          {/*<p>A indecisao nos faz perder grandes oportunidades</p>*/}
+          {/*<img src={LogoImg} alt=""/>*/}
+          <p>A indecisao nos faz perder grandes oportunidades</p>
           <nav>
             <li><span><FaFacebook size={30} /></span></li>
             <li><span><FaInstagram size={30} /></span></li>
