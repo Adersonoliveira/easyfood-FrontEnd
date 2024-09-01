@@ -6,4 +6,6 @@
 
 `npm i styled-components`
 
+`npm i react-icons`
+
 ` npm start`
