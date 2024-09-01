@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     padding: 25px 150px;
-    height: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +27,6 @@ export const Menu = styled.div`
             border-radius: 5px;
             padding: 10px;
             span{
-                font-size: 1.2rem;
                 font-weight: 200;
             }
             &:hover{
