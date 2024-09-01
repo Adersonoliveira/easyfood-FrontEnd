@@ -21,7 +21,6 @@ background-color: var(--white);
 `
 export const Copy = styled.div`
     font-size: 25px;
-    font-style: normal;
     display: flex;
     justify-content: space-between;
     align-items: center;
