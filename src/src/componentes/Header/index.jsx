@@ -1,12 +1,19 @@
 import React, { Fragment } from "react";
+import LogoImg from "../../assets/img_1.png";
+import { Container, Logo, Menu } from "./styles";
 
 const Header = () => {
   return(
-    <Fragment>
-<h2>
-  iniciando....
-</h2>
-    </Fragment>
+    <Container>
+      <Logo>
+        <img src={LogoImg} alt=""/>
+      </Logo>
+      <Menu>
+        <ul>
+          <li><span>Login</span></li>
+        </ul>
+      </Menu>
+    </Container>
   )
 }
 
