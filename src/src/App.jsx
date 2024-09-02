@@ -1,19 +1,16 @@
-import Header from "./componentes/Header";
-import Banner from "./componentes/Banner";
+import {Fragment} from 'react';
 import Global from "./style/Global";
-import Footer from "./componentes/Footer";
+import RoutesApp from "./routes";
+
 
 
 function App() {
   return (
-    <div className="App">
-    <h1>
-      <Header/>
-      <Banner/>
-      <Footer/>
+    <Fragment>
+      <RoutesApp/>
       <Global/>
-    </h1>
-    </div>
+    </Fragment>
+
   );
 }
 
