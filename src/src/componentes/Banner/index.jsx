@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <Container>
   <Text>
-    <h2>EasyFood Tem tudo so falta voce!</h2>
+    <h2>EasyFood Tem tudo, só falta você!</h2>
   </Text>
     </Container>
   )

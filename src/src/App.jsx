@@ -1,5 +1,5 @@
 import {Fragment} from 'react';
-import Global from "./style/Global";
+import Global from "./styles/Global";
 import RoutesApp from "./routes";
 
 
